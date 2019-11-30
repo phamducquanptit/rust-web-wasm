@@ -9,7 +9,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Build
+    - name: Install
+      run: cargo install cargo-web
+    - name: Build and develop
       run: cargo web start -p conduit-wasm
     - name: Run tests
       run: cargo test --verbose
