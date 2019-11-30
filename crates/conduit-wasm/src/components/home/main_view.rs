@@ -28,7 +28,7 @@ impl Component for MainView {
                                 href=""
                                 class="nav-link active"
                                 >
-                                { "Global Feed" }
+                                { "Home Feed" }
                             </a>
                         </li>
                     </ul>
